@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhanhuar.github.io</id>
     <title>Zhanhuar个人博客</title>
-    <updated>2020-07-17T16:10:39.418Z</updated>
+    <updated>2020-07-17T16:24:33.324Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhanhuar.github.io"/>
     <link rel="self" href="https://zhanhuar.github.io/atom.xml"/>
@@ -10,22 +10,4 @@
     <logo>https://zhanhuar.github.io/images/avatar.png</logo>
     <icon>https://zhanhuar.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Zhanhuar个人博客</rights>
-    <entry>
-        <title type="html"><![CDATA[Contact / Find Me]]></title>
-        <id>https://zhanhuar.github.io/post/contact-find-me/</id>
-        <link href="https://zhanhuar.github.io/post/contact-find-me/">
-        </link>
-        <updated>2020-07-15T17:00:16.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>Email:</strong><br>
-Zshanhuar@gmail.com</p>
-<p><strong>Social Media Accounts</strong></p>
-<ul>
-<li>**Pixiv id: **24490366</li>
-<li><strong>Lofter:</strong> http://zshanhuar.lofter.com/</li>
-<li>**Twitter: **@Zshanhuar</li>
-<li>**Bilibili: **https://space.bilibili.com/68020287<br>
--</li>
-</ul>
-]]></content>
-    </entry>
 </feed>
