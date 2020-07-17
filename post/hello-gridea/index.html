@@ -1,178 +1,185 @@
-<!doctype html>
-<html amp lang="">
-
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-Github
-Gridea 主页
-示例网站
-特性👇
-📝  你可以使用最酷的 Markdo..." />
-<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-<link rel="preconnect dns-prefetch" href="https://cdn.jsdelivr.net/" crossorigin>
-<script async src="https://cdn.ampproject.org/v0.js"></script>
-<title>Hello Gridea | Zhanhuar个人博客</title>
+<title>Zhanhuar个人博客</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+<meta name="description" content="嘿！欢迎来到我的博客~"/>
+<meta name="keywords" content="嘿！欢迎来到我的博客~"/>
 
-  
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="https://zhanhuar.github.io/favicon.ico">
+
+<link rel="stylesheet" href="https://zhanhuar.github.io/styles/main.css">
+
+<!-- Modernizr JS -->
+<script src="https://zhanhuar.github.io/media/scripts/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="https://zhanhuar.github.io/media/scripts/respond.min.js"></scripts>
+<![endif]-->
+
+<!-- Comment -->
+
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
 
     
 
 
-<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
-<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-<link rel="canonical" href="https://zhanhuar.github.io/post/hello-gridea/" />
-<link rel="shortcut icon" href="https://zhanhuar.github.io/favicon.ico?v=1595001516518">
 
-<meta name="author" content="">
+<!-- katex -->
+<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
 
-<meta itemprop="name" content="Hello Gridea | Zhanhuar个人博客">
-<meta itemprop="description" content="👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 
-Github
-Gridea 主页
-示例网站
-特性👇
-📝  你可以使用最酷的 Markdo...">
-<meta itemprop="image" content="https://zhanhuar.github.io/post-images/hello-gridea.png">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Hello Gridea | Zhanhuar个人博客">
-<meta name="twitter:description" content="👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
-
-Github
-Gridea 主页
-示例网站
-特性👇
-📝  你可以使用最酷的 Markdo...">
-<meta name="twitter:image" content="https://zhanhuar.github.io/post-images/hello-gridea.png" />
-<meta name="twitter:image:alt" content="Hello Gridea | Zhanhuar个人博客" />
-
-
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://zhanhuar.github.io/post/hello-gridea/">
-<meta property="og:title" content="Hello Gridea | Zhanhuar个人博客">
-<meta property="og:description" content="👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
-
-Github
-Gridea 主页
-示例网站
-特性👇
-📝  你可以使用最酷的 Markdo...">
-<meta property="og:image" content="https://zhanhuar.github.io/post-images/hello-gridea.png">
-<meta property="og:image:alt" content="Hello Gridea | Zhanhuar个人博客" />
-<meta property="og:site_name" content="Zhanhuar个人博客">
-<meta property="og:locale" content="zh_CN">
-<meta property="tag" content="Hello Gridea | Zhanhuar个人博客" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<link rel="alternate" type="application/atom+xml" title="Hello Gridea | Zhanhuar个人博客 - Atom Feed" href="https://zhanhuar.github.io/atom.xml">
-
-  
-  
-  
-    
-  
-  
-
-
-  
-
-
-
-  
 
 
 </head>
-
 <body>
-  <input type="checkbox" id="header-menu-button">
-  <header id="commonTop">
-  <div class="top-container">
-    <div class="title-menus-area">
-      <a class="blog-title" href="https://zhanhuar.github.io">Zhanhuar个人博客</a>
-      <label for="header-menu-button" class="top-menus">
-        <nav class="menu-menu-1-container">
-          <ul id="menu-menu-1" class="menu">
+    <div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="https://zhanhuar.github.io/images/avatar.png" alt="Zhanhuar个人博客"
+                 class="img-responsive">
+        </figure>
+        <a href="https://zhanhuar.github.io/post/about/"><h3 class="heading">ABOUT ME</h3></a>
+        <h2>Zhanhuar个人博客</h2>
+        <p>嘿！欢迎来到我的博客~</p>
+        <ul class="fh5co-social">
             
+                <li>
+                    
+                </li>
             
-            <li>
-              <a href="/" aria-current="page">Home</a></li>
+                <li>
+                    
+                </li>
             
+                <li>
+                    
+                </li>
             
+                <li>
+                    
+                </li>
             
-            <li>
-              <a href="/archives" aria-current="page">Archives</a></li>
+                <li>
+                    
+                </li>
             
-            
-            
-            <li>
-              <a href="/tags" aria-current="page">Tags</a></li>
-            
-            
-            
-            <li>
-              <a href="/post/about" aria-current="page">About Me</a></li>
-            
-            
-            
-            <li>
-              <a href="https://zhanhuar.github.io/post/sns" aria-current="page">Contact / Find Me</a></li>
-            
-            
-          </ul>
-        </nav>
-      </label>
+        </ul>
     </div>
-    
-  </div>
-</header>
-  <main>
-    <div class="main-container">
 
-      <div class="article-info">
-        
-          <div class="flex-box meta-category">
-            <a class="post-cate" href="https://zhanhuar.github.io/tag/tMVcziwFJ/">Gridea</a></div>
-          
-        <h2 class="article-title">
-          <a href="https://zhanhuar.github.io/post/hello-gridea/">Hello Gridea</a>
-        </h2>
-        <div class="flex-box">
-          <div class="flex-box post-meta-box">
-            <a class="post-meta" href="https://zhanhuar.github.io"><span
-                class="iconfont icon-mr-postmeta"></span></a>
-            <span class="post-meta"><span class="iconfont icon-mr-postmeta"></span>2018 年 12	月 10日</span>
-            
+    <div class="fh5co-menu">
 
-
-          </div>
+        <!-- 标签 -->
+        <div class="fh5co-box">
+            <a href="https://zhanhuar.github.io/tags/"><h3 class="heading">👉标签</h3></a>
+            <ul>
+                
+            </ul>
         </div>
-      </div>
-      <div class="content">
-        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+    </div>
+</div>
+
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
+                        
+                        >
+                            Home
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives"
+                        
+                        >
+                            Archives
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
+                        
+                        >
+                            Tags
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/about"
+                        
+                        >
+                            About Me
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhanhuar.github.io/post/sns"
+                        
+                        >
+                            Contact / Find Me
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="https://zhanhuar.github.io">Zhanhuar个人博客 </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
+
+    <!-- 等gridea出自定义页面功能再优化一下 -->
+    
+        <div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+            <figure class="animate-box">
+                
+                    <img src="https://zhanhuar.github.io/post-images/hello-gridea.png" alt="Hello Gridea" class="img-responsive">
+                
+            </figure>
+            <span class="fh5co-meta animate-box">
+                
+                    <div class="tag-container">
+                        
+                            <a href="https://zhanhuar.github.io/tag/tMVcziwFJ/" class="tag">Gridea, </a>
+                        
+                    </div>
+                
+            </span>
+            <h2 class="fh5co-article-title animate-box">Hello Gridea</h2>
+            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
+                <li>2018-12-10</li>
+                <li>298字</li>
+                <li>2 min read</li>
+            </ol>
+
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                <div class="row">
+                    <div class="col-md-12 animate-box post-content">
+                        <p> <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 <!-- more -->
 <p><a href="https://github.com/getgridea/gridea">Github</a><br>
@@ -193,88 +200,132 @@ Gridea 主页
 <p>未来，它一定会成为你离不开的伙伴</p>
 <p>尽情发挥你的才华吧！</p>
 <p>😘 Enjoy~</p>
+ </p>
+                    </div>
+                </div>
 
-      </div>
+                <div class="row">
+                    <div class="col-md-12 animate-box">
+                        
+                    </div>
+                </div>
 
-      
-
-      
-      
-
-      <div class="post-tags">
+                <div class="row">
+    <div class="col-md-12 animate-box">
         
-        <a href="https://zhanhuar.github.io/tag/tMVcziwFJ/" rel="tag">Gridea</a>        
-               
-      </div>
-
-
-        
-        
-
-          
-
+            
+                <div id="gitalk-container"></div>
             
 
-              
-
-          
-          
-
+            
+        
     </div>
+</div>
 
-    <div class="sidebar">
-  <aside id="profile-2" class="widget widget_profile">
-    <div class="profile-box">
-      <div class="profile-avatar">
-        <amp-img src="https://zhanhuar.github.io/images/avatar.png?v=1595001516518" alt="avatar"
-          layout="fill"></amp-img>
-      </div>
-      <div class="profile-content">
-        <div class="amp-wp-681d4ff">
-          嘿！欢迎来到我的博客~
-        </div>
+            </div>
 
-      </div>
+        </article>
     </div>
-  </aside>
-  
+</div>
+
     
-  
-     
 
-
-  <aside id="linkcat-2" class="widget widget_links">
-  <h4 class="widget-title">友链</h4>
-  <ul class="xoxo blogroll">
+    <!-- 返回顶部 -->
+    <div class="back-to-top">
     
-  </ul>
-</aside>
+        <a href="#!" id="tool-toc" class="hidden-xs hidden-sm">
+            <i class="fa fa-map"></i>
+        </a>
+        <br>
+    
+    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
+</div>
 
+<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E7%89%B9%E6%80%A7">特性👇</a></li>
+</ul>
+</li>
+</ul>
 
 </div>
-    <div class="scrolltop-wrap">
-  <span tabindex="0" role="button" class="go-top" on="tap:commonTop.scrollTo(duration=500, position=top)">
-    <span class="iconfont"></span>
-  </span>
-</div>
-  </main>
-  <footer>
-  <div class="footer-container">
-    <div class="footer-menus">
-    </div>
-    <div class="footer-copyright">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-      
-      
 
-    </div>
-  </div>
+
+    
+<footer id="fh5co-footer">
+  <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
 </footer>
 
 
-  
+    <!-- jQuery -->
+<script src="https://zhanhuar.github.io/media/scripts/jquery.min.js"></script>
+<!-- img lazy load -->
+<script src="https://zhanhuar.github.io/media/scripts/jquery.lazyload.min.js"></script>
+<!-- jQuery Easing -->
+<script src="https://zhanhuar.github.io/media/scripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="https://zhanhuar.github.io/media/scripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="https://zhanhuar.github.io/media/scripts/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="https://zhanhuar.github.io/media/scripts/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="https://zhanhuar.github.io/media/scripts/md5.min.js"></script>
+<!-- katex -->
+<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
+<!-- highlight -->
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+
+
+<script type="application/javascript">
+    // 代码高亮
+    hljs.initHighlightingOnLoad();
+
+    // img 懒加载
+    $(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn",  // 懒加载动画
+            threshold: 180  // 在图片距离屏幕180px时提前载入
+        });
+        // tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
+        // 目录
+        $('#tool-toc').click(function () {
+            $('.post-toc').toggle();
+        });
+    });
+
+    
+</script>
+
+
+
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
+
+            var gitalk = new Gitalk({
+                clientID: '843b4fe62a839fb2ffd4',
+                clientSecret: '46f433048a305f49333092e7d2485e07dc0b0662',
+                repo: 'comment',
+                owner: 'zhanhuar',
+                admin: ['zhanhuar'],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
+
+            gitalk.render('gitalk-container')
+
+        </script>
+    
+
+    
+
+
 
 
 </body>
-
 </html>
