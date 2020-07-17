@@ -41,7 +41,7 @@
 
 </head>
 <body>
-    <div id="fh5co-offcanvas">
+    {}<div id="fh5co-offcanvas">
     <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
         <span><i class="icon-cross3"></i> <span>Close</span></span>
     </a>
@@ -79,17 +79,6 @@
     </div>
 
     <div class="fh5co-menu">
-
-        <!-- 标签 -->
-        <div class="fh5co-box">
-            <a href="https://zhanhuar.github.io/tags/"><h3 class="heading">👉标签</h3></a>
-            <ul>
-                
-            </ul>
-        </div>
-    </div>
-</div>
-
 <header id="fh5co-header">
     <div class="container-fluid">
         <div class="row">
@@ -121,10 +110,10 @@
                     </li>
                 
                     <li>
-                        <a href="https://zhanhuar.github.io/archives"
+                        <a href="https://zhanhuar.github.io/gallery"
                         
                         >
-                            Archives
+                            Gallery
                         </a>
                     </li>
                 
@@ -290,6 +279,14 @@
         });
     });
 
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
     
 </script>
 
