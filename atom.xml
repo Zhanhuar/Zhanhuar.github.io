@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhanhuar.github.io</id>
     <title>Zhanhuar&apos;s Archive</title>
-    <updated>2020-07-18T18:58:15.167Z</updated>
+    <updated>2020-07-18T19:45:40.484Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhanhuar.github.io"/>
     <link rel="self" href="https://zhanhuar.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, Zhanhuar&apos;s Archive</rights>
     <entry>
         <title type="html"><![CDATA[Hello World]]></title>
-        <id>https://zhanhuar.github.io/post/hello-world/</id>
-        <link href="https://zhanhuar.github.io/post/hello-world/">
+        <id>https://zhanhuar.github.io/hello-world/</id>
+        <link href="https://zhanhuar.github.io/hello-world/">
         </link>
         <updated>2020-07-16T22:43:10.000Z</updated>
         <content type="html"><![CDATA[<p>past</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Photo test]]></title>
-        <id>https://zhanhuar.github.io/post/photo-test/</id>
-        <link href="https://zhanhuar.github.io/post/photo-test/">
+        <id>https://zhanhuar.github.io/photo-test/</id>
+        <link href="https://zhanhuar.github.io/photo-test/">
         </link>
         <updated>2020-07-15T05:35:52.000Z</updated>
     </entry>
